@@ -9,4 +9,4 @@ for p in range(passwordNumbers):
     password = ""
     for c in range(length):
         password += random.choice(chars)
-    print(password)
+    print("Your password generated is here: ", password)
